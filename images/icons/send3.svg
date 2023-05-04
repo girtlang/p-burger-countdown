@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="24" height="24">
+<path style="fill:#000000; stroke:none;" d="M0 0L0 2L2 0L0 0z"/>
+<path style="fill:#f1f2f2; stroke:none;" d="M2.3179 1.02778C-0.936699 3.19956 0 8.65931 0 12C0 14.9168 -0.68332 19.1179 1.02778 21.6821C3.54165 25.4494 18.1645 25.3195 21.6821 22.9722C24.9367 20.8004 24 15.3407 24 12C24 9.08316 24.6833 4.88213 22.9722 2.3179C20.4583 -1.44936 5.83545 -1.31947 2.3179 1.02778z"/>
+<path style="fill:#000000; stroke:none;" d="M22 0L24 2L24 0L22 0z"/>
+<path style="fill:#fdc142; stroke:none;" d="M5 3L5 11L10 11L10 13L5 13L5 21C20.9462 17.9252 20.9463 6.07485 5 3z"/>
+<path style="fill:#f9ce6e; stroke:none;" d="M4 4L4 20L5 20L5 13L10 13L10 11L5 11L4 4z"/>
+<path style="fill:#000000; stroke:none;" d="M0 22L0 24L2 24L0 22M23 22L22 24L24 24L23 22z"/>
+</svg>

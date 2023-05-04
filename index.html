@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P-Burgers Countdown</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon4.webp" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="countdown__container">
+      <img class="logo" src="images/logo/logo-shadow.svg" alt="" />
+      <h2 class="burger">&#8212; BURGERNĪCAS ATVĒRŠANA &#8212;</h2>
+      <h4 class="date">2023. gada 20. maijā</h4>
+      <h6 class="laiks">Līdz atvēršanai palicis!</h6>
+      <h4 id="timer"></h4>
+      <div class="countdown__time">
+        <div class="days">
+          <h1 id="days"></h1>
+          <h2>Diena(s)</h2>
+        </div>
+        <div class="hours">
+          <h1 id="hours"></h1>
+          <h2>Stunda(s)</h2>
+        </div>
+        <div class="minutes">
+          <h1 id="minutes"></h1>
+          <h2>Minūte(s)</h2>
+        </div>
+        <div class="seconds">
+          <h1 id="seconds"></h1>
+          <h2>Sekunde(s)</h2>
+        </div>
+      </div>
+    </div>
+    <div class="burgers">
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+      <img class="burg" src="images/logo/color-logo.svg" alt="" />
+    </div>
+    <div class="subscribe">
+      <p>
+        Pieraksties jaunumiem, akcijām un aktuālai informācijai par atvēršanas
+        dienu!
+      </p>
+      <form name="submit-to-google-sheet" class="form" action="">
+        <input
+          class="input"
+          type="email"
+          name="Email"
+          placeholder="..................Jūsu e-pasts.................."
+          required
+        />
+        <button class="button" type="submit">
+          <img class="send" src="images/icons/send0.png" alt="Send" />
+        </button>
+      </form>
+      <span id="msg"></span>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
